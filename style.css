@@ -1,0 +1,35 @@
+:root{
+    --text-color: #dad7cd;
+    --background-color: #344e41;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:var(--background-color);
+    color: var(--text-color);
+}
+
+.text{
+    font-size: 4rem;
+    padding:0.5em 0;
+    border: 3px dashed var(--text-color);
+    text-align:center;
+    text-transform: uppercase;
+    margin: 25vh auto;
+    width: 50%;
+    min-width:60%;
+    font-weight:bold;
+}
+
+.neteja{
+    padding:0px;
+    border: none;
+    width: 100%;
+    text-align:center;
+}
