@@ -1,6 +1,6 @@
 
 <?php 
-    require_once('funcions/detecta_idioma.php');
+    require_once('includes/detecta_idioma.php');
 ?>
 <!DOCTYPE html>
 <html lang="ca">
