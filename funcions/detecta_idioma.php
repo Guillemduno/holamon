@@ -2,7 +2,8 @@
    $text = "";
    $idiomes = ["ca", "es", "en"]; 
 
-   if(isset($_GET['lang'])&& $_GET['lang'] !=''){
+
+   if(isset($_GET['lang']) && $_GET['lang'] != ''){
 
         $lang = $_GET['lang'];
 
@@ -14,13 +15,18 @@
             else if($lang === 'en'){
                 $text = 'Hello World!';
             }
-            else {
+            else{
                 $text = "Hola Món!";
             }
         }else{
+            if(!in_array($lang, $idiomes)){
+                $text = "Text no disponible amb aquest idioma...";
+            }
+            else{
             ?>
             <script src="funcions/ajax.js"></script>
         <?php
+            }
         }
    }else{
     ?>
