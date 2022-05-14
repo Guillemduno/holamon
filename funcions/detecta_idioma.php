@@ -20,7 +20,7 @@
             }
         }else{
             if(!in_array($lang, $idiomes)){
-                $text = "Text no disponible amb aquest idioma...";
+                $text = "Idioma ($lang) no disponible...";
             }
             else{
             ?>
