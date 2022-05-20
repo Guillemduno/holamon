@@ -2,6 +2,7 @@
 // S'obté l'idioma del navegador i s'extreuen els dos primers caràcters.
 let lang = window.navigator.userLanguage || window.navigator.language;
 let idioma = lang.substring(0,2);
+console.log(idioma);
 
 
 // Petició Ajax que envia l'idioma del navegador per GET.

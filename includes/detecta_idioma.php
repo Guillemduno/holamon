@@ -18,13 +18,13 @@
             }
             else{
             ?>
-            <script src="funcions/ajax.js"></script>
+            <script src="includes/ajax.js"></script>
         <?php
             }
         }
    }else{
     ?>
-        <script src="funcions/ajax.js"></script>
+        <script src="includes/ajax.js"></script>
     <?php
    }
 ?>
